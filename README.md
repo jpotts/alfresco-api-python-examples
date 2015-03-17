@@ -1,4 +1,6 @@
-===Installation===
+# Alfresco API Python Examples
+
+## Installation
 
 I strongly recommend you use virtualenv. Assuming you do that, the steps to install are:
 
@@ -12,7 +14,7 @@ easy_install oauth2client
 
 Now you're ready to configure your application key and secret.
 
-===Configuration===
+## Configuration
 
 You need to know your Alfresco Cloud API key and secret. Go snag those and come back.
 
@@ -28,7 +30,7 @@ FOLDER_NAME = 'test folder' # Name of a test folder to create
 FILE = '/Users/jpotts/Documents/sample/sample-a.pdf' # Name of a file to upload
 FILE_TYPE = 'application/pdf' # Mimetype of the file
 
-===Running===
+## Running
 
 1. Execute the script
 2. The script will invoke your default browser and ask you to grant access to the application.
